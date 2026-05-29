@@ -6,7 +6,7 @@ from ..core.fluid_memory import FluidMemory
 from ..core.algebraic_scattering import AlgebraicScattering
 from ..core.seed_math import SeedMath
 
-class SaghjanBeejModel:
+class HindBeejModel:
     def __init__(self, seed_dim=1024, num_patterns=10000):
         self.seed_math = SeedMath(seed_dim)
         self.memory = FluidMemory(seed_dim)
